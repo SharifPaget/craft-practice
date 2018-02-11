@@ -51,11 +51,43 @@ iframe{
 
 
 
+
+
+
+
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
     /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+    img{
+      width: 500px;
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      }
+
+    .container{
+      max-width: 745px;
+      display: block;
+      margin: 0 auto;
+      padding:10px 25px;
+      border:1px solid #ccc;
+      background:#fff;
+
+    }
+
+    iframe{
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+
+
 }
+
+
 
 @media(min-width: 729px) {
   /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
